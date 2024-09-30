@@ -22,6 +22,6 @@ class HasImageServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        $this->app->make(HasThumbnail::class);
+        $this->app->make("Themadamin\HasImage\HasImage");
     }
 }

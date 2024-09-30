@@ -5,7 +5,7 @@ namespace Themadamin\HasImage;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\Storage;
 
-trait HasThumbnail
+trait HasImage
 {
     protected UploadedFile $file;
     protected string $collection;
