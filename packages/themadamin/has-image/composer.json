@@ -1,0 +1,19 @@
+{
+    "name": "themadamin/has-image",
+    "description": "Eloquent helper for saving model images",
+    "license": "MIT",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Themadamin\\HasImage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "themadamin",
+            "email": "madaminme@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
